@@ -2,7 +2,7 @@
 
 A modern Electron desktop application boilerplate with React, TypeScript, and Tailwind CSS.
 
-## 🚀 Features
+## Features
 
 - **Electron** - Cross-platform desktop framework
 - **React 19** - Modern UI library
@@ -15,7 +15,7 @@ A modern Electron desktop application boilerplate with React, TypeScript, and Ta
 - **Protocol Handler** - Custom URL scheme (`app://`)
 - **Preload Script** - Secure IPC communication
 
-## 📦 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -50,7 +50,7 @@ npm run build
 npm run electron:build
 ```
 
-## 🛠️ Available Scripts
+## Available Scripts
 
 | Script | Description |
 |--------|-------------|
@@ -60,7 +60,7 @@ npm run electron:build
 | `npm run electron:dev` | Start Electron in development mode |
 | `npm run electron:build` | Build Electron app for distribution |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 electron-app/
@@ -81,7 +81,7 @@ electron-app/
 └── README.md          # This file
 ```
 
-## 🐋 Docker (Optional)
+## Docker (Optional)
 
 ```bash
 # Build Docker image
@@ -91,20 +91,20 @@ docker build -t electron-app .
 docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix electron-app
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
 4. Commit (`git commit -m 'Add some feature'`)
 5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
+5. Open a Pull Request
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## 📧 Contact
+## Contact
 
 - **GitHub**: [@kamalesh404](https://github.com/kamalesh404)
 - **Project**: [electron-app](https://github.com/kamalesh404/electron-app)
